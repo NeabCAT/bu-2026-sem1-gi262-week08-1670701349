@@ -23,6 +23,7 @@ public class DialogueUI : MonoBehaviour
         InteractNpcSequen = sequen;
         DialogueNode currentNode = InteractNpcSequen.tree.root;
         ShowDialogue(currentNode);
+
         //Show UI
         dialoguePanel.SetActive(true);
         gameObject.SetActive(true);

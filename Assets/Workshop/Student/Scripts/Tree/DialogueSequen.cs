@@ -67,7 +67,6 @@ public class DialogueSequen : MonoBehaviour
         // [4] add greeting's next node: goodbye, with text: "Goodbye."
         greeting.AddNext(goodbye, "Goodbye.");
         // [5] add askForQuest's next node: questDenied, with text: "I’m ready for anything!"
-
         askForQuest.AddNext(questDenied, "I'm ready for anything!");
         // [6] add askForQuest's next node: goodbye, with text: "Maybe later."
         askForQuest.AddNext(goodbye, "Maybe later");
